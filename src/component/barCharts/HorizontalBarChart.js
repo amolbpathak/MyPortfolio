@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
 
-class BarChartV1 extends Component {
+class HorizontalBarChart extends Component {
   componentDidMount() {
     const data = [4, 8, 15, 16, 23, 42, 10];
     this.drawBarChart(data);
@@ -31,4 +31,4 @@ class BarChartV1 extends Component {
   }
 }
 
-export default BarChartV1;
+export default HorizontalBarChart;
