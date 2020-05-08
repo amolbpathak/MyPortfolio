@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "1.0.0",
-  "description": "This web application will help in manage portfolios. great tool for financial managment.",
+  "description": "Viz Portfolio",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
