@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import data from "/public/AlfaFreq.json";
+import data from "../../data/AlfaFreq.json";
 
 class HorizontalBarChartV1 extends Component {
   componentDidMount() {

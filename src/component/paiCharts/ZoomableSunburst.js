@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import flareData from "/public/MyPortfolio.json";
+import flareData from "../../data/MyPortfolio.json";
 
 class ZoomableSunburst extends Component {
   componentDidMount() {

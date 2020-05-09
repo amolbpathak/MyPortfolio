@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import csvData from "/public/aapl.csv";
+import csvData from "../../data/aapl.csv";
 
 class LineChartTooltip extends Component {
   componentDidMount() {

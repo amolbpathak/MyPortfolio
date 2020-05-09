@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import myData from "/public/BarChart.json";
+import myData from "../../data/BarChart.json";
 
 class HorizontalBarChart extends Component {
   componentDidMount() {
