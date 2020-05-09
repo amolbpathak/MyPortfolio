@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import data from "/public/apples-bananas.tsv";
+import data from "../../data/apples-bananas.tsv";
 
 class LineChartInlineLable extends Component {
   componentDidMount() {
