@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import data from "../../data/apples-bananas.tsv";
+import data from "../../data/apples-banans.json";
 
 class LineChartInlineLable extends Component {
   componentDidMount() {
-    const fruitData = d3.tsvParse(
-      data,
-      d => ((d3.autoType(d).date = new Date(Date.UTC(d.date, 0, 1))), d)
-    );
-    this.drawInlineLableLineChart(fruitData);
+    // const fruitData = d3.tsvParse(
+    //   data,
+    //   d => ((d3.autoType(d).date = new Date(Date.UTC(d.date, 0, 1))), d)
+    // );
+    this.drawInlineLableLineChart(data);
   }
 
   drawInlineLableLineChart(data) {
@@ -23,7 +23,7 @@ class LineChartInlineLable extends Component {
       .domain([data[0].date, data[data.length - 1].date])
       .range([margin.left, width - margin.right]);
 
-    const series = data.columns
+    const series = Object.keys(data[0])
       .slice(1)
       .map(key => data.map(({ [key]: value, date }) => ({ key, date, value })));
 
@@ -32,7 +32,10 @@ class LineChartInlineLable extends Component {
       .domain([0, d3.max(series, s => d3.max(s, d => d.value))])
       .range([height - margin.bottom, margin.top]);
 
-    const z = d3.scaleOrdinal(data.columns.slice(1), d3.schemeCategory10);
+    const z = d3.scaleOrdinal(
+      Object.keys(data[0]).slice(1),
+      d3.schemeCategory10
+    );
 
     const xAxis = g =>
       g.attr("transform", `translate(0,${height - margin.bottom})`).call(
