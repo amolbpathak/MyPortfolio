@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import flareData from "/public/Flare.json";
+import flareData from "/public/MyPortfolio.json";
 
 class ZoomableSunburst extends Component {
   componentDidMount() {
@@ -8,7 +8,6 @@ class ZoomableSunburst extends Component {
   }
 
   drawZoomableSunburst(flareData) {
-    console.log(flareData);
     const width = 932;
     const radius = width / 6;
 
