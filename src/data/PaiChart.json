@@ -1,0 +1,13 @@
+[
+  { "name": "Others", "value": 16140, "color": "rgb(217, 56, 119)" },
+  { "name": "Amazon", "value": 14921, "color": "rgb(228, 86, 103)" },
+  { "name": "eBay", "value": 6338, "color": "#FFC96C" },
+  { "name": "Tesco Groceries", "value": 2041, "color": "#E0FF69" },
+  { "name": "Sainsbury's", "value": 1767, "color": "#89FF66" },
+  { "name": "Marks & Spencer", "value": 1077, "color": "#62FF97" },
+  { "name": "Debenhams", "value": 631, "color": "#5FFFEF" },
+  { "name": "Just Eat", "value": 588, "color": "#5CB2FF" },
+  { "name": "Next", "value": 558, "color": "#5F58FF" },
+  { "name": "Argos", "value": 463, "color": "#BC55FF" },
+  { "name": "John Lewis", "value": 423, "color": "#FF51E0" }
+]

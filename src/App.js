@@ -3,7 +3,7 @@ import "./styles.css";
 import ZoomableSunburst from "./component/paiCharts/ZoomableSunburst";
 // import LineChartTooltip from "./component/lineCharts/LineChartTooltip";
 import LineChartInlineLable from "./component/lineCharts/LineChartInlineLable.js";
-import VerticalBarChart from "./component/barCharts/VerticalBarChart";
+import PaiChart from "./component/paiCharts/PaiChart";
 
 export default function App() {
   return (
@@ -13,8 +13,7 @@ export default function App() {
         <LineChartInlineLable />
       </section>
       <section>
-        {/* <LineChartTooltip /> */}
-        <VerticalBarChart />
+        <PaiChart />
       </section>
     </div>
   );
