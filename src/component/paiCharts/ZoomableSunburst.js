@@ -9,7 +9,7 @@ class ZoomableSunburst extends Component {
 
   drawZoomableSunburst(flareData) {
     const width = 932;
-    const radius = width / 6;
+    const radius = width / 8;
 
     const svg = d3
       .select(this.refs.sunburst)
@@ -95,6 +95,16 @@ class ZoomableSunburst extends Component {
       .attr("fill", "none")
       .attr("pointer-events", "all")
       .on("click", clicked);
+
+    //Amol
+    parent.append("title").text(
+      d =>
+        `${d
+          .ancestors()
+          .map(d => d.data.name)
+          .reverse()
+          .join("/")}\n${format(d.value)}`
+    );
 
     function clicked(p) {
       parent.datum(p.parent || root);

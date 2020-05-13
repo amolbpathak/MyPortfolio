@@ -7,34 +7,39 @@
         {
           "name": "FDs",
           "children": [
-            { "name": "ICICI", "value": 45000 },
-            { "name": "HDFC", "value": 40000 },
-            { "name": "ICICI", "value": 90000 },
-            { "name": "ICICI", "value": 50000 }
+            { "name": "ICICI", "value": 292770 },
+            { "name": "HDFC", "value": 40000 }
           ]
         },
         {
           "name": "Saving",
           "children": [
-            { "name": "ICICI Bank", "value": 20000 },
-            { "name": "HDFC Bank", "value": 15000 },
-            { "name": "PNB", "value": 6000 },
-            { "name": "HSBC", "value": 5000 }
+            { "name": "ICICI Bank", "value": 604772 },
+            { "name": "HDFC Bank", "value": 33356 },
+            { "name": "PNB", "value": 31223 },
+            { "name": "HSBC", "value": 696529 }
           ]
         },
         {
           "name": "Cards",
-          "children": [{ "name": "City", "value": 1000 }]
+          "children": [{ "name": "Monzo", "value": 8867 }]
+        },
+        {
+          "name": "Demat",
+          "children": [{ "name": "Sharekhan", "value": 762 }]
         }
       ]
     },
     {
       "name": "Long Term Savings",
       "children": [
-        { "name": "NPS", "value": 100000 },
-        { "name": "PPF", "value": 5842 },
-        { "name": "Sukanya", "value": 1041 },
-        { "name": "PF", "value": 5176 }
+        { "name": "NPS", "value": 111531 },
+        { "name": "PPF", "value": 471059 },
+        { "name": "Sukanya", "value": 418843 },
+        { "name": "Infy PF", "value": 445600 },
+        { "name": "Infy EPS", "value": 75167 },
+        { "name": "Oracle PF", "value": 287914 },
+        { "name": "Oracle EPS", "value": 51237 }
       ]
     },
     {
@@ -43,41 +48,105 @@
         {
           "name": "Bank",
           "children": [
-            { "name": "HDFC Bank", "value": 721 },
-            { "name": "ICICI Bank", "value": 4294 },
-            { "name": "CUB", "value": 9800 },
-            { "name": "Axis Bank", "value": 1314 }
+            { "name": "CUB", "value": 612.0 },
+            { "name": "FEDERALBNK", "value": 204.35 },
+            { "name": "HDFCBANK", "value": 9604.7 },
+            { "name": "ICICIBANK", "value": 4290.22 },
+            { "name": "IDFCFIRSTB", "value": 1092.5 },
+            { "name": "KOTAKBANK", "value": 3674.76 }
           ]
         },
         {
-          "name": "NBFCs",
+          "name": "NBFCs Finance",
           "children": [
-            { "name": "Bajaj Finance", "value": 721 },
-            { "name": "HDFC", "value": 4294 }
+            { "name": "BAJFINANCE", "value": 6468.54 },
+            { "name": "HDFC", "value": 3239.44 },
+            { "name": "IDFC", "value": 7345 },
+            { "name": "SBICARD", "value": 15383.55 }
           ]
         },
         {
           "name": "FMCG",
           "children": [
-            { "name": "Hindusan Unilever", "value": 721 },
-            { "name": "Dabar", "value": 4294 },
-            { "name": "Godrej Consumers", "value": 9800 },
-            { "name": "Marico", "value": 1314 }
+            { "name": "Hindusan Unilever", "value": 12063.54 },
+            { "name": "Dabar", "value": 847.54 },
+            { "name": "GODREJCP", "value": 4756.0 },
+            { "name": "Marico", "value": 1258.85 },
+            { "name": "ITC", "value": 1515.7 }
           ]
         },
         {
           "name": "Pharma",
-          "children": [{ "name": "IPCA Labs", "value": 721 }]
+          "children": [{ "name": "IPCALAB", "value": 9120.86 }]
+        },
+        {
+          "name": "IT",
+          "children": [
+            { "name": "INFY", "value": 5767.65 },
+            { "name": "TECHM", "value": 507.42 }
+          ]
+        },
+        {
+          "name": "Industrials",
+          "children": [
+            { "name": "LT", "value": 4318.4 },
+            { "name": "HAVELLS", "value": 2634.4 }
+          ]
+        },
+        {
+          "name": "Power",
+          "children": [{ "name": "NTPCN7", "value": 805.8 }]
+        },
+        {
+          "name": "Materials",
+          "children": [{ "name": "ASIANPAINT", "value": 4830.36 }]
+        },
+        {
+          "name": "Consumer Discretionary",
+          "children": [
+            { "name": "BATAINDIA", "value": 3547.44 },
+            { "name": "TITAN", "value": 8043.2 },
+            { "name": "JUBLFOOD", "value": 4288.2 }
+          ]
         }
       ]
     },
     {
       "name": "Mutal Funds",
       "children": [
-        { "name": "Axis Blue Chip Fund Growth", "value": 8833 },
-        { "name": "SBI Blue Chip Fund Growth", "value": 1732 },
-        { "name": "Axis Small Cap Fund Growth", "value": 3623 },
-        { "name": "UTI Nifty Index Fund", "value": 10066 }
+        {
+          "name": "Large Cap",
+          "children": [
+            { "name": "Axis Blue Chip Fund Growth", "value": 9150 },
+            { "name": "SBI Blue Chip Fund Direct Growth", "value": 25000 },
+            { "name": "SBI Bluechip Fund Growth", "value": 11000 },
+            { "name": "SBI Long Term Equity Fund Dividend", "value": 11592 },
+            { "name": "DSP Tax Saver Fund Dividend", "value": 625 },
+            {
+              "name": "Sundaram Diversified Equity Fund Dividend",
+              "value": 5360
+            }
+          ]
+        },
+        {
+          "name": "Index Fund",
+          "children": [
+            { "name": "UTI Nifty Index Fund Direct Growth", "value": 7500 }
+          ]
+        },
+        {
+          "name": "Small Cap",
+          "children": [{ "name": "Axis Small Cap Fund Growth", "value": 6101 }]
+        },
+        {
+          "name": "Mid Cap",
+          "children": [
+            {
+              "name": "Kotak Emerging Equity Fund Direct Growth",
+              "value": 5000
+            }
+          ]
+        }
       ]
     }
   ]

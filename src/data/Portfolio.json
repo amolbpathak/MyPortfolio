@@ -1,0 +1,84 @@
+{
+  "name": "portfolio",
+  "children": [
+    {
+      "name": "Accounts",
+      "children": [
+        {
+          "name": "FDs",
+          "children": [
+            { "name": "ICICI", "value": 45000 },
+            { "name": "HDFC", "value": 40000 },
+            { "name": "ICICI", "value": 90000 },
+            { "name": "ICICI", "value": 50000 }
+          ]
+        },
+        {
+          "name": "Saving",
+          "children": [
+            { "name": "ICICI Bank", "value": 20000 },
+            { "name": "HDFC Bank", "value": 15000 },
+            { "name": "PNB", "value": 6000 },
+            { "name": "HSBC", "value": 5000 }
+          ]
+        },
+        {
+          "name": "Cards",
+          "children": [{ "name": "City", "value": 1000 }]
+        }
+      ]
+    },
+    {
+      "name": "Long Term Savings",
+      "children": [
+        { "name": "NPS", "value": 100000 },
+        { "name": "PPF", "value": 5842 },
+        { "name": "Sukanya", "value": 1041 },
+        { "name": "PF", "value": 5176 }
+      ]
+    },
+    {
+      "name": "Stocks",
+      "children": [
+        {
+          "name": "Bank",
+          "children": [
+            { "name": "HDFC Bank", "value": 721 },
+            { "name": "ICICI Bank", "value": 4294 },
+            { "name": "CUB", "value": 9800 },
+            { "name": "Axis Bank", "value": 1314 }
+          ]
+        },
+        {
+          "name": "NBFCs",
+          "children": [
+            { "name": "Bajaj Finance", "value": 721 },
+            { "name": "HDFC", "value": 4294 }
+          ]
+        },
+        {
+          "name": "FMCG",
+          "children": [
+            { "name": "Hindusan Unilever", "value": 721 },
+            { "name": "Dabar", "value": 4294 },
+            { "name": "Godrej Consumers", "value": 9800 },
+            { "name": "Marico", "value": 1314 }
+          ]
+        },
+        {
+          "name": "Pharma",
+          "children": [{ "name": "IPCA Labs", "value": 721 }]
+        }
+      ]
+    },
+    {
+      "name": "Mutal Funds",
+      "children": [
+        { "name": "Axis Blue Chip Fund Growth", "value": 8833 },
+        { "name": "SBI Blue Chip Fund Growth", "value": 1732 },
+        { "name": "Axis Small Cap Fund Growth", "value": 3623 },
+        { "name": "UTI Nifty Index Fund", "value": 10066 }
+      ]
+    }
+  ]
+}

@@ -13,8 +13,8 @@ class LineChartInlineLable extends Component {
 
   drawInlineLableLineChart(data) {
     console.log(data);
-    const height = 500;
-    const width = 500;
+    const height = 400;
+    const width = 850;
     const labelPadding = 3;
     const margin = { top: 30, right: 50, bottom: 30, left: 30 };
 
