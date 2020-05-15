@@ -30,6 +30,7 @@ class ZoomableSunburst extends Component {
     );
 
     const format = d3.format(",d");
+    const percentageFormat = d3.format(".0%");
 
     const arc = d3
       .arc()
@@ -72,7 +73,9 @@ class ZoomableSunburst extends Component {
           .ancestors()
           .map(d => d.data.name)
           .reverse()
-          .join("/")}\n${format(d.value)}`
+          .join("/")}\n${format(d.value)}\n${percentageFormat(
+          d.value / d.parent.value
+        )}`
     );
 
     const label = g
@@ -86,7 +89,9 @@ class ZoomableSunburst extends Component {
       .attr("dy", "0.35em")
       .attr("fill-opacity", d => +labelVisible(d.current))
       .attr("transform", d => labelTransform(d.current))
-      .text(d => d.data.name);
+      .text(
+        d => `${d.data.name} - ${percentageFormat(d.value / d.parent.value)}`
+      );
 
     const parent = g
       .append("circle")

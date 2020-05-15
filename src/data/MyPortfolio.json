@@ -117,32 +117,30 @@
         {
           "name": "Large Cap",
           "children": [
-            { "name": "Axis Blue Chip Fund Growth", "value": 9150 },
-            { "name": "SBI Blue Chip Fund Direct Growth", "value": 25000 },
-            { "name": "SBI Bluechip Fund Growth", "value": 11000 },
-            { "name": "SBI Long Term Equity Fund Dividend", "value": 11592 },
-            { "name": "DSP Tax Saver Fund Dividend", "value": 625 },
+            { "name": "Axis BlueChip -D-G", "value": 9150 },
+            { "name": "SBI BlueChip -D-G", "value": 25000 },
+            { "name": "SBI Bluechip -R-G", "value": 11000 },
+            { "name": "SBI Long Term Equity -D", "value": 11592 },
+            { "name": "DSP Tax Saver - D", "value": 625 },
             {
-              "name": "Sundaram Diversified Equity Fund Dividend",
+              "name": "Sundaram Diversified Equity -D",
               "value": 5360
             }
           ]
         },
         {
           "name": "Index Fund",
-          "children": [
-            { "name": "UTI Nifty Index Fund Direct Growth", "value": 7500 }
-          ]
+          "children": [{ "name": "UTI Nifty Index -D-G", "value": 7500 }]
         },
         {
           "name": "Small Cap",
-          "children": [{ "name": "Axis Small Cap Fund Growth", "value": 6101 }]
+          "children": [{ "name": "Axis Small Cap -D-G", "value": 6101 }]
         },
         {
           "name": "Mid Cap",
           "children": [
             {
-              "name": "Kotak Emerging Equity Fund Direct Growth",
+              "name": "Kotak Emerging Equity -D-G",
               "value": 5000
             }
           ]
