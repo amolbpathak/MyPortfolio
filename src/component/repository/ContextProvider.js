@@ -11,7 +11,6 @@ class ContextProvider extends Component {
     };
   }
   componentDidMount() {
-    console.log("inside context provider");
     ContentfulClient.getEntries({
       content_type: "nobook",
       order: "fields.tranNumber"
@@ -27,13 +26,13 @@ class ContextProvider extends Component {
   formatData(portfolio) {
     portfolio.map(p => {
       let data = { ...p.fields };
-      console.log("data: " + JSON.stringify(data));
+      //console.log("data: " + JSON.stringify(data));
       return data;
     });
   }
 
   render() {
-    console.log("My Portfolio " + this.state.portfolio);
+    // console.log("My Portfolio " + this.state.portfolio);
     this.formatData(this.state.portfolio);
     return (
       <PortfolioContext.Provider value={{ ...this.state }}>

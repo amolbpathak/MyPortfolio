@@ -1,0 +1,98 @@
+[
+  {
+    "Month": "Jan",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Feb",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Mar",
+    "Stockes": 86007,
+    "Mutual Fund": 22600,
+    "Long Term Saving": 0,
+    "Income": 428466,
+    "Expence": 138904
+  },
+  {
+    "Month": "Apr",
+    "Stockes": 9539.3,
+    "Mutual Fund": 117,
+    "Long Term Saving": 55000,
+    "Income": 297436,
+    "Expence": 113995
+  },
+  {
+    "Month": "May",
+    "Stockes": 2033.5,
+    "Mutual Fund": 7151,
+    "Long Term Saving": 113995,
+    "Income": 284657,
+    "Expence": 106971
+  },
+  {
+    "Month": "Jun",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Jul",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Aug",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Sep",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Oct",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Nov",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  },
+  {
+    "Month": "Dec",
+    "Stockes": 0,
+    "Mutual Fund": 0,
+    "Long Term Saving": 0,
+    "Income": 0,
+    "Expence": 0
+  }
+]

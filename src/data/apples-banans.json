@@ -1,9 +1,0 @@
-[
-  { "date": 2009, "Apples": 130, "Bananas": 40, "Grapes": 50 },
-  { "date": 2010, "Apples": 137, "Bananas": 58, "Grapes": 5 },
-  { "date": 2011, "Apples": 166, "Bananas": 97, "Grapes": 10 },
-  { "date": 2012, "Apples": 154, "Bananas": 117, "Grapes": 70 },
-  { "date": 2013, "Apples": 179, "Bananas": 98, "Grapes": 80 },
-  { "date": 2014, "Apples": 187, "Bananas": 120, "Grapes": 90 },
-  { "date": 2015, "Apples": 189, "Bananas": 84, "Grapes": 30 }
-]

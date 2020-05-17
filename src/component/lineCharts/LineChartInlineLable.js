@@ -1,20 +1,15 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import data from "../../data/apples-banans.json";
+import data from "../../data/NetOutflow.json";
 
 class LineChartInlineLable extends Component {
   componentDidMount() {
-    // const fruitData = d3.tsvParse(
-    //   data,
-    //   d => ((d3.autoType(d).date = new Date(Date.UTC(d.date, 0, 1))), d)
-    // );
     this.drawInlineLableLineChart(data);
   }
 
   drawInlineLableLineChart(data) {
-    console.log(data);
     const height = 400;
-    const width = 850;
+    const width = 954;
     const labelPadding = 3;
     const margin = { top: 30, right: 50, bottom: 30, left: 30 };
 

@@ -1,0 +1,20 @@
+[
+  {
+    "date": 3,
+    "Stockes": 86007,
+    "MutualFund": 22600,
+    "LongTermSaving": 0
+  },
+  {
+    "date": 4,
+    "Stockes": 9539.3,
+    "MutualFund": 9000,
+    "LongTermSaving": 55000
+  },
+  {
+    "date": 5,
+    "Stockes": 2033.5,
+    "MutualFund": 7151,
+    "LongTermSaving": 25000
+  }
+]
