@@ -16,11 +16,11 @@ class GroupBarChart extends Component {
     const width = 954;
     const groupKey = "Month"; //data.columns[0];
     const keys = [
-      "Stockes",
-      "Mutual Fund",
-      "Long Term Saving",
       "Income",
-      "Expence"
+      "Expence",
+      "Stocks",
+      "Mutual Fund",
+      "Long Term Saving"
     ]; // data.columns.slice(1);
 
     const svg = d3

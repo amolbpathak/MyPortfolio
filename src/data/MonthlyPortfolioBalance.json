@@ -1,7 +1,7 @@
 [
   {
     "Month": "Jan",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -9,7 +9,7 @@
   },
   {
     "Month": "Feb",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -17,7 +17,7 @@
   },
   {
     "Month": "Mar",
-    "Stockes": 86007,
+    "Stocks": 86007,
     "Mutual Fund": 22600,
     "Long Term Saving": 0,
     "Income": 428466,
@@ -25,7 +25,7 @@
   },
   {
     "Month": "Apr",
-    "Stockes": 9539.3,
+    "Stocks": 9539.3,
     "Mutual Fund": 117,
     "Long Term Saving": 55000,
     "Income": 297436,
@@ -33,7 +33,7 @@
   },
   {
     "Month": "May",
-    "Stockes": 2033.5,
+    "Stocks": 2033.5,
     "Mutual Fund": 7151,
     "Long Term Saving": 113995,
     "Income": 284657,
@@ -41,7 +41,7 @@
   },
   {
     "Month": "Jun",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -49,7 +49,7 @@
   },
   {
     "Month": "Jul",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -57,7 +57,7 @@
   },
   {
     "Month": "Aug",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -65,7 +65,7 @@
   },
   {
     "Month": "Sep",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -73,7 +73,7 @@
   },
   {
     "Month": "Oct",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -81,7 +81,7 @@
   },
   {
     "Month": "Nov",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
@@ -89,7 +89,7 @@
   },
   {
     "Month": "Dec",
-    "Stockes": 0,
+    "Stocks": 0,
     "Mutual Fund": 0,
     "Long Term Saving": 0,
     "Income": 0,
