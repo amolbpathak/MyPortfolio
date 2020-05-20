@@ -14,19 +14,19 @@
         {
           "name": "Saving",
           "children": [
-            { "name": "ICICI Bank", "value": 604772 },
-            { "name": "HDFC Bank", "value": 33356 },
+            { "name": "ICICI Bank", "value": 604772.49 },
+            { "name": "HDFC Bank", "value": 27016 },
             { "name": "PNB", "value": 31223 },
-            { "name": "HSBC", "value": 696529 }
+            { "name": "HSBC", "value": 691129.6 }
           ]
         },
         {
           "name": "Cards",
-          "children": [{ "name": "Monzo", "value": 8867 }]
+          "children": [{ "name": "Monzo", "value": 1809.9 }]
         },
         {
           "name": "Demat",
-          "children": [{ "name": "Sharekhan", "value": 762 }]
+          "children": [{ "name": "Sharekhan", "value": 378.26 }]
         }
       ]
     },
@@ -49,7 +49,7 @@
           "name": "Bank",
           "children": [
             { "name": "CUB", "value": 612.0 },
-            { "name": "FEDERALBNK", "value": 204.35 },
+            { "name": "FEDERALBNK", "value": 588.9 },
             { "name": "HDFCBANK", "value": 9604.7 },
             { "name": "ICICIBANK", "value": 4290.22 },
             { "name": "IDFCFIRSTB", "value": 1092.5 },
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "name": "NBFCs Finance",
+          "name": "NBFCs",
           "children": [
             { "name": "BAJFINANCE", "value": 6468.54 },
             { "name": "HDFC", "value": 3239.44 },
@@ -117,30 +117,30 @@
         {
           "name": "Large Cap",
           "children": [
-            { "name": "Axis BlueChip -D-G", "value": 9150 },
-            { "name": "SBI BlueChip -D-G", "value": 25000 },
-            { "name": "SBI Bluechip -R-G", "value": 11000 },
-            { "name": "SBI Long Term Equity -D", "value": 11592 },
-            { "name": "DSP Tax Saver - D", "value": 625 },
+            { "name": "Axis BlueChip-D-G", "value": 10250 },
+            { "name": "SBI BlueChip-D-G", "value": 26050 },
+            { "name": "SBI Bluechip-R-G", "value": 11000 },
+            { "name": "SBI Long Term E-D", "value": 11592 },
+            { "name": "DSP Tax Saver-D", "value": 625 },
             {
-              "name": "Sundaram Diversified Equity -D",
+              "name": "Sundaram Diversified E-D",
               "value": 5360
             }
           ]
         },
         {
           "name": "Index Fund",
-          "children": [{ "name": "UTI Nifty Index -D-G", "value": 7500 }]
+          "children": [{ "name": "UTI N50 Index-D-G", "value": 9600 }]
         },
         {
           "name": "Small Cap",
-          "children": [{ "name": "Axis Small Cap -D-G", "value": 6101 }]
+          "children": [{ "name": "Axis SmallCap-D-G", "value": 7101 }]
         },
         {
           "name": "Mid Cap",
           "children": [
             {
-              "name": "Kotak Emerging Equity -D-G",
+              "name": "Kotak Emerging E-D-G",
               "value": 5000
             }
           ]
